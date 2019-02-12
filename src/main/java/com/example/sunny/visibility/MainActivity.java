@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         marks.setVisibility(View.VISIBLE);
         result.setVisibility(View.VISIBLE);
         gameStart();
+        //hello
     }
 
 
