@@ -19,7 +19,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
+        
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="161dp"
+            android:layout_height="58dp"
+            android:layout_alignBottom="@+id/timer"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textSize="36sp"
+            android:visibility="invisible" />
+        
         <Button
             android:id="@+id/go"
             android:layout_width="196dp"
